@@ -53,7 +53,7 @@ const readData = (id)=>{
 }
 const listData = ()=>{
     const loadData = getData()
-         if(newitem.length>0)
+         if(loadData.length>0)
                       {
            loadData.forEach((element) => {
             console.log(element.fname,element.lname,element.age,element.city)
